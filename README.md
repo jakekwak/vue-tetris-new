@@ -4,7 +4,7 @@ from: https://github.com/elevista/vue-tetris
 
 I want to make same as 1986 orginal pc version: https://www.youtube.com/watch?v=oeINvveVeto 
 
-![image](https://github.com/jakekwak/vue-tetris-new/Tetris_Screen_Shot.png)
+![image](https://github.com/jakekwak/vue-tetris-new/blob/master/Tetris_Screen_Shot.png)
 
 Change:
 
