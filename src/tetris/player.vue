@@ -187,7 +187,9 @@
         return touched
       },
       moveStraight () {
-        while (!this.move(0, -1)) {}
+        while (!this.move(0, -1)) {
+          /* tslint:disable:no-empty */
+        }
         this.getScore(21 + (3 * this.level))
       },
       getScore (v) {
