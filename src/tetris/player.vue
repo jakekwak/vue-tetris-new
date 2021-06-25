@@ -47,6 +47,7 @@
   import ground from './ground.vue'
   import stageComputed from './stageComputed'
   import soundService from './soundService/soundService.mjs'
+  import _ from 'lodash'
 
   let blockId = 0
   export default {

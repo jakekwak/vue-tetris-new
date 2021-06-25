@@ -2,7 +2,9 @@
   <div class="ground">
     <transition-group name="cell">
       <template v-for="(row,y) of this.ground">
+        <!-- eslint-disable -->
         <cell v-for="(cell,x) of row" v-if="cell" :data="cell.data" :pos="[x,y]" :stage="stage" :key="cell.id" class="cell"/>
+        <!-- eslint-enable -->
       </template>
     </transition-group>
   </div>
@@ -11,6 +13,7 @@
 <script>
   import stageComputed from './stageComputed'
   import cell from './cell.vue'
+  import _ from 'lodash'
 
   export default {
     name: 'ground',
